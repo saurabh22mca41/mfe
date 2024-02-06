@@ -5,7 +5,7 @@ on:
       - main
     paths:
       - "packages/container/**"
-
+      - '.github/workflows/container.yml'
 defaults:
   run:
     working-directory: packages/container
